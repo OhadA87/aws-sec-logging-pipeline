@@ -1,9 +1,9 @@
 
-# Security Alerting Module (Day 2)
+# Security Alerting Module
 
 This Terraform module provisions a real-time alerting pipeline that monitors suspicious activity — specifically SSH traffic — using VPC Flow Logs, CloudWatch Logs, Metric Filters, and SNS email notifications.
 
-## 📌 Purpose
+## Purpose
 
 Simulate real-world detection and alerting as implemented in high-tech companies to respond to:
 
@@ -11,9 +11,9 @@ Simulate real-world detection and alerting as implemented in high-tech companies
 - **Brute-force scanning behavior**
 - **Network intrusions via port 22**
 
-## 🔐 Resources Created
+## Resources Created
 
-- **VPC Flow Logs** (to CloudWatch Logs)
+- **VPC Flow Logs** 
 - **CloudWatch Log Group & Log Stream**
 - **Metric Filter**: Monitors for SSH attempts
 - **CloudWatch Alarm**: Triggers on suspicious SSH activity
